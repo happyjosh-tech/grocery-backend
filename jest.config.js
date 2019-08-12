@@ -2,5 +2,6 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
-  testEnvironment: "node"
+  testEnvironment: "node",
+  setupFilesAfterEnv: ["./setupTests.js"]
 };
