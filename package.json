@@ -7,7 +7,8 @@
     "dev": "nodemon index.js",
     "lint": "eslint .",
     "start": "node index.js",
-    "test": "jest"
+    "test": "NODE_ENV=test jest",
+    "test:watch": "npm run --silent test -- --watchAll"
   },
   "author": "quiko",
   "license": "ISC",
