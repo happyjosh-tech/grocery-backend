@@ -1,7 +1,7 @@
 {
   "name": "grocery-backend",
   "version": "1.0.0",
-  "description": "express backen for grocery management app",
+  "description": "express backend for grocery management app",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
